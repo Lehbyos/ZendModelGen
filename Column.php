@@ -2,7 +2,7 @@
 include_once 'classes/common/Column.php';
 class MySqlColumn extends Column
 {
-	public $key;
+	public    $key;
 	protected $extra;
 	protected $autoIncrement;
 	
