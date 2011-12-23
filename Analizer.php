@@ -79,9 +79,8 @@ class MySqlAnalizer extends Analizer
 			}
 			mysql_free_result($rs);
 		}
-		else{
+		else
 			echo "Error: no tables where found!\n";
-		}
 		return $resp;
 	}
 	
